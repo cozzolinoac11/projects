@@ -1,7 +1,7 @@
 # List of all my projects
 Below there are the links of all public GitHub projects
 
-- [Brexit tweets classification](https://github.com/cozzolinoac11/brexit-tweets)
+- [**Brexit tweets classification**](https://github.com/cozzolinoac11/brexit-tweets)
   
   Brexit tweets classification involves using natural language processing (NLP) and machine learning techniques to categorize tweets related to Brexit into different classes or sentiment categories. This classification helps analyze public opinion, track sentiment trends, and understand the discourse surrounding Brexit on social media. It's valuable for researchers, policymakers, and businesses seeking insights into public sentiment and discussions related to this significant political event.
   
@@ -53,3 +53,22 @@ Phishing email detection is a vital component of email security that employs var
 - [Keyword Extractor](https://github.com/cozzolinoac11/keywordExtractor)
 
   What Is Keyword Extraction? Keyword extraction (also known as keyword detection or keyword analysis) is a text analysis technique that automatically extracts the most used and most important words and expressions from a text. It helps summarize the content of texts and recognize the main topics discussed. Every day, internet users create 2.5 quintillion bytes of data. Social media comments, product reviews, emails, blog posts, searches, chats, etc. We have all sorts of unstructured textual data. The question is how to sort through this chaos to find what is relevant. Keyword mining can help you extract the most important keywords or phrases from a given text without having to read a single line. Whether it's a product manager trying to analyze a stack of product reviews, a customer service manager analyzing customer interactions, or a researcher sifting through hundreds of online documents on a specific topic, you can use keyword mining to easily understand the content of a text. With keyword extraction, teams can be more efficient and harness the power of data. You can say goodbye to manual and repetitive tasks (saving countless man-hours) and access valuable information that will help you turn unstructured data into valuable knowledge.
+
+- [Wildfire Prediction Dataset (Satellite Images)](https://github.com/cozzolinoac11/wildfire_prediction)
+
+  #### Satellite images of areas that previously experienced wildfires in Canada
+
+  ### About Dataset
+  #### Source
+  Refer to Canada's website for the original wildfires data:
+  Forest Fires - Open Government Portal
+  Original license for the data:
+  Creative Commons 4.0 Attribution (CC-BY) license – Quebec
+
+  #### About Dataset
+  This dataset contains satellite images (350x350px) in 2 classes :
+    - Wildfire : 22710 images
+    - No wildfire : 20140 images
+  
+  #### How
+  Using Longitude and Latitude coordinates for each wildfire spot (> 0.01 acres burned) found on the dataset above we extracted satellite images of those areas using MapBox API to create a more convenient format of the dataset for deep learning and building a model that can predict whether an area is at risk of a wildfire or not
