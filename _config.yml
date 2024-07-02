@@ -2,4 +2,4 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme 
 title: Project
-description: [A short description of your site's purpose]
+description: Welcome to my GitHub repository for showcasing my projects! This page contains the link and description to source code for my personal portfolio. Here, you'll find a curated collection of my work, including detailed descriptions, screenshots, and live demos of various projects I've developed. 
