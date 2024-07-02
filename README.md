@@ -22,12 +22,11 @@ Phishing email detection is a vital component of email security that employs var
   **What it does**: Face detection algorithms analyze visual data to locate and outline the positions of faces present in an image or video 
 
   **Applications**:
-
-      Facial Recognition: Identifying individuals based on their facial features.
-      Emotion Analysis: Analyzing facial expressions to determine emotions.
-      Security: Access control, surveillance, and identity verification.
-      Augmented Reality: Overlaying digital elements on real faces in real-time.
-      Automated Tagging: Organizing photos by detecting and tagging faces.
+    - Facial Recognition: Identifying individuals based on their facial features.
+    - Emotion Analysis: Analyzing facial expressions to determine emotions.
+    - Security: Access control, surveillance, and identity verification.
+    - Augmented Reality: Overlaying digital elements on real faces in real-time.
+    - Automated Tagging: Organizing photos by detecting and tagging faces.
 
   Face detection is a critical technology in today's world, with numerous practical and innovative applications across various domains, from security to entertainment and beyond.
 
@@ -72,3 +71,31 @@ Phishing email detection is a vital component of email security that employs var
   
   #### How
   Using Longitude and Latitude coordinates for each wildfire spot (> 0.01 acres burned) found on the dataset above we extracted satellite images of those areas using MapBox API to create a more convenient format of the dataset for deep learning and building a model that can predict whether an area is at risk of a wildfire or not
+
+- [Meat freshness](https://github.com/cozzolinoac11/meat-freshness)
+
+  ### About Dataset - Meat Freshness Dataset
+  #### Data Description
+  It includes 2266 images.
+  Color-Marbling-Freshness are annotated in Multi-Class Classification format.
+
+  The following pre-processing was applied to each image:
+    - Auto-orientation of pixel data (with EXIF-orientation stripping)
+    - Resize to 416x416 (Stretch)
+
+  The following image augmentation techniques were applied as a layer of CNN:
+    - Random flip horizontal
+    - Random flip vertical
+    
+  ### Classes
+    - Fresh
+    - Half-Fresh 
+    - Spoiled
+
+  ### Inspiration
+    How can we detect whether meat is fresh or not?
+
+- [Fruit image classification](https://github.com/cozzolinoac11/fruit_image_classification)
+
+  This project is an image classification of fruit picture. This task is solved using some Jupyter Notebook, one for algorithm type. The algorithms used are AdaBoost, KNN, LeNet and SVM.
+In this folder there are the Jupyter Notebooks for algorithms and one Jupyter Notebook for image acquisition and saving data as NumPy array.
