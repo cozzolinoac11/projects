@@ -1,2 +1,4 @@
-# projects
-Welcome to my GitHub repository for showcasing my projects! This repository contains the source code for my personal portfolio website, hosted using GitHub Pages. Here, you'll find a curated collection of my work, including detailed descriptions, screenshots, and live demos of various projects I've developed.
+# List of all my projects
+Below there are the links of all public GitHub projects
+
+- [Brexit tweets classification](https://github.com/cozzolinoac11/brexit-tweets)
