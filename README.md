@@ -11,7 +11,7 @@ Below there are the links of all public GitHub projects
 
   Building an NLP pipeline for English news classification. Fake news or real? News classification plays a pivotal role in content curation, personalization, and efficient news dissemination in today's digital media landscape. It helps users access relevant information quickly and enables media organizations to manage news effectily
 
-## [Phishing email detection
+## Phishing email detection
 - [Phishing email detection GitHub repository](https://github.com/cozzolinoac11/phishing-email-detection)
   
   Phishing email detection is the process of identifying and flagging potentially malicious emails that aim to deceive recipients into revealing sensitive information or taking harmful actions. Advanced email security solutions employ automated algorithms to rapidly identify phishing emails, reducing the risk of successful attacks.
@@ -47,7 +47,7 @@ Phishing email detection is a vital component of email security that employs var
 ## Automotive Vehicles Engine Health
 - [Automotive Vehicles Engine Health - GitHub repository](https://github.com/cozzolinoac11/automotive-vehicles-engine-health)
 
-  #### Analyzing a Dataset on Automotive Engine Health for Predictive Maintenance and model building
+  ### Analyzing a Dataset on Automotive Engine Health for Predictive Maintenance and model building
 
   The dataset includes various vehicle engine health characteristics and measurements, such as engine speed, temperature, pressure and other sensor data.
 
@@ -73,7 +73,7 @@ Phishing email detection is a vital component of email security that employs var
     - Wildfire : 22710 images
     - No wildfire : 20140 images
   
-  #### How
+  ### How
   Using Longitude and Latitude coordinates for each wildfire spot (> 0.01 acres burned) found on the dataset above we extracted satellite images of those areas using MapBox API to create a more convenient format of the dataset for deep learning and building a model that can predict whether an area is at risk of a wildfire or not
 
 ## Meat freshness
