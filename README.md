@@ -1,5 +1,5 @@
-# List of all my projects
-Below there are the links of all public GitHub projects
+# List of All My Projects
+Below are the links to all my public GitHub projects. For any questions, please contact me at cozzolinoac11@gmail.com.
 
 ## Brexit tweets classification
 - [Brexit tweets classification GitHub repository](https://github.com/cozzolinoac11/brexit-tweets)
